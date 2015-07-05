@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ARVAutocompleteBar_Example', :exclusive => true do
+  pod "ARVAutocompleteBar", :path => "../"
+end
+
+target 'ARVAutocompleteBar_Tests', :exclusive => true do
+  pod "ARVAutocompleteBar", :path => "../"
+
+  pod 'Quick', '~> 0.3.1'
+  pod 'Nimble'
+end
