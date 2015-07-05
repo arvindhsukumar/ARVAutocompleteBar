@@ -1,0 +1,25 @@
+{
+  "name": "ARVAutocompleteBar",
+  "version": "0.1.0",
+  "summary": "A short description of ARVAutocompleteBar.",
+  "description": "A keyboard input view that provides autocomplete options like Tweetbot",
+  "homepage": "https://github.com/arvindhsukumar/ARVAutocompleteBar",
+  "license": "MIT",
+  "authors": {
+    "Arvindh Sukumar": "arvindh.sukumar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ARVAutocompleteBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ARVAutocompleteBar": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

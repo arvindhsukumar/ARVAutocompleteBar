@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ARVAutocompleteBar
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setToolbarHidden(false, animated: false)
+        
+        let view = UIView(frame: self.navigationController!.toolbar.bounds)
+        view.backgroundColor = UIColor.redColor()
+
+        ar
+        
+        self.navigationController?.toolbar.addSubview(view)
+    }
 }
 

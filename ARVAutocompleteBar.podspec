@@ -11,13 +11,8 @@ Pod::Spec.new do |s|
   s.name             = "ARVAutocompleteBar"
   s.version          = "0.1.0"
   s.summary          = "A short description of ARVAutocompleteBar."
-  s.description      = <<-DESC
-                       An optional longer description of ARVAutocompleteBar
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ARVAutocompleteBar"
+  s.description      = "A keyboard input view that provides autocomplete options like Tweetbot"
+  s.homepage         = "https://github.com/arvindhsukumar/ARVAutocompleteBar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Arvindh Sukumar" => "arvindh.sukumar@gmail.com" }

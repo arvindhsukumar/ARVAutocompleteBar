@@ -1,0 +1,1606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001D32148CF3CFFD5A99D2EB /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69C68C8E151B790A35CF8BB /* Stringers.swift */; };
+		00717BDCE6FD1C23D1398FB3 /* Pods-ARVAutocompleteBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 519FB238004F0F4431D44EF9 /* Pods-ARVAutocompleteBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09572CC6C5C3301E487D32A2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3DF25B27465D9D2C6D591 /* Configuration.swift */; };
+		0BED3ABFAFA47E9C02A890EA /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3186201F990840DA02A60F4E /* BeGreaterThan.swift */; };
+		0EDAB83E95C4371B4F87647A /* NMBExceptionCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 23BA1989C0FF7B1C53B779C0 /* NMBExceptionCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA479AEC2BF31DDC199A8C4 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = F058E403525B0A8F0214B85B /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FFCA62EDDAF57F234DB9738 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 213D8B872024B88007358367 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127D730B3681724F6F5ED979 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7CE1C374C8A5D5F0A8422A /* XCTest.framework */; };
+		130C8BB8D0AAA664F8D2C2D5 /* BeLessThanOrEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC3DD16B1C754D3D92F174F /* BeLessThanOrEqual.swift */; };
+		132A7A55E2D4345400D6752D /* ObjCExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B9DA7E1697C916D57DFB1 /* ObjCExpectation.swift */; };
+		1D06225FE7D9C4377938DBB9 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B96373ADD656875EEE9CF8 /* ObjCMatcher.swift */; };
+		21462CEF7F8946B8C4618234 /* Poll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1869F63432173CAAC1B2B /* Poll.swift */; };
+		2B8FB93ABA4EAF38921347B4 /* AutocompleteCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 664E13CF92E9F6FA070A97A1 /* AutocompleteCell.xib */; };
+		2CFB598F889B03FFAF3D9A7B /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EBE8BF8ABBBBB4FD5FD212 /* ExampleHooks.swift */; };
+		3431291ACF60AC823D4B752B /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = BE66C9E3AD50F292B1C63D0A /* DSL.m */; };
+		3C507C9025AB5B1D05378EF3 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 52379AF6FC8E45DE03237B76 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D4C8B334585767FE436553 /* Pods-ARVAutocompleteBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB0D2F5C43A097C846730E3 /* Pods-ARVAutocompleteBar_Tests-dummy.m */; };
+		41EADB5556C2C2D0D4473684 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD68AC2EF3BC85DCFB299A5 /* AssertionRecorder.swift */; };
+		4275B543ADFE0672F671A523 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 205890B6A83E38E6760CC0D9 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-dummy.m */; };
+		469C900090000E7675BD3A86 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF294F5B4503188FE707CED /* NMBExceptionCapture.m */; };
+		471940E162CA7C6B60FB3DD0 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85F38B3DF82BAC3ECD0413F /* AsyncMatcherWrapper.swift */; };
+		4A79F0BA6DACE3F85F731F63 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD01D06B8AB4D0285A8F58DC /* World+DSL.swift */; };
+		4ED802EAF1E587D4F99BE70F /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B3BBC36029523161CF834D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EFA60FD6DE8F58CD8317013 /* EndWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1567D72002CE4C41FDD396BE /* EndWith.swift */; };
+		515ABB3F6291CD158726431C /* Pods-ARVAutocompleteBar_Tests-Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CF78718EBEB2F88D155773 /* Pods-ARVAutocompleteBar_Tests-Quick-dummy.m */; };
+		55D87E9EE37C00AB5DA1BDBF /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1DCE63E52A3343F931D5B6 /* Expression.swift */; };
+		56088229E92347D64539910F /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC85476A97A599FE0F98A2 /* ExampleMetadata.swift */; };
+		5779C747C9ACF083CFDEC199 /* AutocompleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E91FFDBD8BD2FE5C6B075FA /* AutocompleteCell.swift */; };
+		580C5246D4880D658F059704 /* ARVAutocompleteBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE579DD09D5734AE3A4019 /* ARVAutocompleteBar.swift */; };
+		58A354F87A34B8BF24766D3C /* BeCloseTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8904F64DEEEE1926B080E0 /* BeCloseTo.swift */; };
+		599C1013675C4598C6D3E9A7 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E8924FD098BF16B91A37E /* Match.swift */; };
+		5ACBB4214A5B3D8FFF8F0C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3482B1B380FAF6E4118CBCA /* Foundation.framework */; };
+		655B5497BE6B87596E0C97BD /* NSString+QCKSelectorName.h in Headers */ = {isa = PBXBuildFile; fileRef = 70057CC74C37A525C63E2C15 /* NSString+QCKSelectorName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F51A695CE5AF92E4389148 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A3CB5727B39598F98BE423 /* Filter.swift */; };
+		66CC9D1D2619C1A555D7A7DC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56895B3BCF05BBBE166C64D3 /* ReplaceMe.swift */; };
+		680FC4C95EB5C3A44612BDBC /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94080F240DC24BED7353BA71 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m */; };
+		6A20EDF07398FC89209810A0 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAF36BACEE37A56A12ED1F1 /* FailureMessage.swift */; };
+		6A5DE4D02F95923AEE2DDE52 /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A03F78EF877E5DD556E445F /* BeLogical.swift */; };
+		6F575CB5EB9AC2D7B0CBB4C6 /* Pods-ARVAutocompleteBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E626A48E11348463EFD3E612 /* Pods-ARVAutocompleteBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		717624CEA73E963164BF9EF7 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A590BBAAE8A22BFF61E426 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B0C0FAE8DD9E0DE4E16668 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A885CF48CEF1E3A296781A /* BeEmpty.swift */; };
+		75276BF13B30726B3E7A2B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3482B1B380FAF6E4118CBCA /* Foundation.framework */; };
+		75AAC426B1D93044E6A0B17F /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EF3ABCC671FBB420F477D /* Functional.swift */; };
+		76A313D86F485D36D28B71B3 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD7444BD521ECF98D81B4DE /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		785F006CD2820DF4AB3F7E57 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBA3C6CC29C87456D71BD7F /* NimbleXCTestHandler.swift */; };
+		7A685E07E84D63E968950C3B /* BeAKindOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60AE77B15E648B92A9B6B3 /* BeAKindOf.swift */; };
+		7F2C957F7C03E7B473AE9ECE /* Pods-ARVAutocompleteBar_Tests-Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EDA282D2E435CFF154E77 /* Pods-ARVAutocompleteBar_Tests-Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811A47C676EA45FE99309628 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AD22A66C86A0232C816B06 /* SourceLocation.swift */; };
+		851EAD55FC7F1C968AC2AAE7 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F7E5726F0773F679F7E2D7 /* BeNil.swift */; };
+		857F6551A96D82B7BBCD8742 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB243F8499D7D1C577E51FFF /* DSL.swift */; };
+		89C7741783A63B6F8249DD70 /* Pods-ARVAutocompleteBar_Tests-Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31782D7E41D526A336E68125 /* Pods-ARVAutocompleteBar_Tests-Nimble-dummy.m */; };
+		8E5F08FB422F37F6DD90874F /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F57B825613E5BC2A91EA144 /* DSL+Wait.swift */; };
+		900BC3C1D86D5114225B801F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3482B1B380FAF6E4118CBCA /* Foundation.framework */; };
+		999D6388EEFB925F25239BB2 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 619C66819909D7B1C4EE7562 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B72D4DFABF573F4FD509272 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B51C0D45FB72E99D59A6A /* Expectation.swift */; };
+		9CCD42FBCF280F2571C07F7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3482B1B380FAF6E4118CBCA /* Foundation.framework */; };
+		A16E10A8D5396CF723E9624D /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2CCA2CA51378961D760B1F /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2250AEC802ECE22AFEBB5CA /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CB1DD1C163B31D9569540E /* Equal.swift */; };
+		A3A838E619A3D936291E478F /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDF808A27539309670C5FC8 /* SuiteHooks.swift */; };
+		A4F53BBB931EE287CC4CFCF7 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8D7EAB366371F518F5C2D /* QuickSpec.m */; };
+		A515D52EAE0A81E3EB5C3C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3482B1B380FAF6E4118CBCA /* Foundation.framework */; };
+		A69F7E61C6426EC93BCBCCCA /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98A67897932DD8EED7A0B8 /* BeGreaterThanOrEqualTo.swift */; };
+		A85C66D955669795C8A0647D /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BD7C0B29C08DC7E89DBE0 /* BeIdenticalTo.swift */; };
+		AA185F48C16F770B78EC0E66 /* Pods-ARVAutocompleteBar_Tests-Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D45A73244CD5973961FF7AD3 /* Pods-ARVAutocompleteBar_Tests-Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC84222B5A8EE0464BDE1A2 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF6B7E7AEE36913056E50 /* Example.swift */; };
+		AF782D95A79089289D459A97 /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7693A3C1A43B209BF1687DDB /* AllPass.swift */; };
+		AFF9E93CF4E962E08BE44E4F /* AutocompleteCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 664E13CF92E9F6FA070A97A1 /* AutocompleteCell.xib */; };
+		B16516F1D54263A91FC47D73 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FBB16B33BE7371BBBD9B55 /* MatcherFunc.swift */; };
+		B19C7D293C85333AEF17D28C /* Contain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05CE527371827B948934E15 /* Contain.swift */; };
+		B30C5C4099F940D1FB503374 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3482B1B380FAF6E4118CBCA /* Foundation.framework */; };
+		B445260CEC6EF9B1865555B6 /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E5DDD89B9C7D074B2AE41B /* BeLessThan.swift */; };
+		B76249024E25E336DF28244B /* ARVAutocompleteBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DE579DD09D5734AE3A4019 /* ARVAutocompleteBar.swift */; };
+		BB26CAF8ED02FBD865AD7B06 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B9B5215C6DA8E326F2CEB6 /* BeAnInstanceOf.swift */; };
+		BC9203395390B4B360B8B3A9 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49F751122CB611D5BCBCB29 /* RaisesException.swift */; };
+		C152CC0E4F64862EEF33D6A9 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DE6F93AAFE95405A38EC90 /* AdapterProtocols.swift */; };
+		C65BE823A5F9ECFA8F71985E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56895B3BCF05BBBE166C64D3 /* ReplaceMe.swift */; };
+		C84F1D6695CBCB2D8DC618A2 /* ARVAutocompleteBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 483DD8ED6C504C4E053F9DCB /* ARVAutocompleteBar.bundle */; };
+		D14E8E5C5F6F910CFA91CC98 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F91587727EB969366337F /* DSL.swift */; };
+		D1A5AA104934C645C0A66090 /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D8606527B43C5C41C8788 /* MatcherProtocols.swift */; };
+		D4AAEF9E85C9487DE451FB9F /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471E10F4AE6DEEF1F10032C /* Failure.swift */; };
+		D65CD0B4DEDF754A1B8E213C /* AssertionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B7AEC6042D26F17D81EB3 /* AssertionDispatcher.swift */; };
+		D6C26EA37585E77336171E4B /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 078FFAA15A7ECA3C3EA15A79 /* QuickConfiguration.m */; };
+		D96186D8D2470C7470A29647 /* AutocompleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E91FFDBD8BD2FE5C6B075FA /* AutocompleteCell.swift */; };
+		DD97B752ED2E345C60AD70F9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7CE1C374C8A5D5F0A8422A /* XCTest.framework */; };
+		E63E21747D7800AF9C181F41 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53CA21332FDDEA9E4D7738C /* Callsite.swift */; };
+		EC7978CA34D5EE0388E510C4 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DAD611F63D9B8CFC9A79FB /* ExampleGroup.swift */; };
+		F1FCE7D8759DF4A970F7C384 /* NSString+QCKSelectorName.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFF4ABF0DF9D012C53613C2 /* NSString+QCKSelectorName.m */; };
+		F301EF766AB8F7841FD94FB4 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3DB89B5165F198D322CB9D /* World.swift */; };
+		F46D2ACC238E71602FCC9846 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7C0ABB1B73A067AC13D66D /* Closures.swift */; };
+		F526070019975A20F7505272 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D6F259E7B087923D0DA30C /* BeginWith.swift */; };
+		F6CB964E81DF78BC8798667A /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED68A9F255718439ADC0742 /* QCKDSL.m */; };
+		F6F2B163AA21DE00DD6AB515 /* Pods-ARVAutocompleteBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C24D743FFA90FF1562DED19 /* Pods-ARVAutocompleteBar_Example-dummy.m */; };
+		FCB2BB984144E0B3113268D5 /* ARVAutocompleteBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E2A4D9DD9DC72CF2580C51FD /* ARVAutocompleteBar.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BBB780D76141F878E2555F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376E2783A7FBE465EDEEC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755BB96750D9146ADB22B477;
+			remoteInfo = "Pods-ARVAutocompleteBar_Tests-Nimble";
+		};
+		3F39F6E49B8DFB566D177C7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376E2783A7FBE465EDEEC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CC4E6D856B528F5997D872;
+			remoteInfo = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar";
+		};
+		7962595699D988053D4A006B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376E2783A7FBE465EDEEC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3DAE1176F5AB116E985674A;
+			remoteInfo = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar";
+		};
+		8562DEAF237A1F728DAA52AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376E2783A7FBE465EDEEC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB9162DABD851E0D3891971;
+			remoteInfo = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar";
+		};
+		C9E07F64709232CDF865C0E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376E2783A7FBE465EDEEC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B25F6F07BDBC34E7E52972;
+			remoteInfo = "Pods-ARVAutocompleteBar_Tests-Quick";
+		};
+		D64256A5485A0535B8D9B884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 376E2783A7FBE465EDEEC93E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D54484317C2C6EF0247FD5;
+			remoteInfo = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0171179A0942BDE614B82315 /* Pods-ARVAutocompleteBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		03BEC487FBF4053240D32892 /* Pods-ARVAutocompleteBar_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Example-environment.h"; sourceTree = "<group>"; };
+		05B9B5215C6DA8E326F2CEB6 /* BeAnInstanceOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAnInstanceOf.swift; path = Nimble/Matchers/BeAnInstanceOf.swift; sourceTree = "<group>"; };
+		0694893AC6C3EB7C85B8A912 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		078FFAA15A7ECA3C3EA15A79 /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Quick/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		0CD8FD063A09DB623A46F5D4 /* Pods-ARVAutocompleteBar_Tests-Quick-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Tests-Quick-Private.xcconfig"; sourceTree = "<group>"; };
+		0DD7444BD521ECF98D81B4DE /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h"; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h"; sourceTree = "<group>"; };
+		118B37F117F09036D4B6B353 /* ARVAutocompleteBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARVAutocompleteBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11ECE8D91327034DA53A1668 /* Pods-ARVAutocompleteBar_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Tests-environment.h"; sourceTree = "<group>"; };
+		12A6C39C8C0C9700FB407663 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.modulemap"; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.modulemap"; sourceTree = "<group>"; };
+		13E8948083CF3F451E03AF1D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig"; sourceTree = "<group>"; };
+		1471E10F4AE6DEEF1F10032C /* Failure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Failure.swift; path = Quick/Failure.swift; sourceTree = "<group>"; };
+		1567D72002CE4C41FDD396BE /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
+		156E7CCE3D005773EB6314CF /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.modulemap"; sourceTree = "<group>"; };
+		16CB1DD1C163B31D9569540E /* Equal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Equal.swift; path = Nimble/Matchers/Equal.swift; sourceTree = "<group>"; };
+		1A03F78EF877E5DD556E445F /* BeLogical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLogical.swift; path = Nimble/Matchers/BeLogical.swift; sourceTree = "<group>"; };
+		1A0D4EAAF9AC453158A76EAA /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-prefix.pch"; sourceTree = "<group>"; };
+		1BE3DF25B27465D9D2C6D591 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		1C7CE1C374C8A5D5F0A8422A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CBA3C6CC29C87456D71BD7F /* NimbleXCTestHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NimbleXCTestHandler.swift; path = Nimble/Adapters/NimbleXCTestHandler.swift; sourceTree = "<group>"; };
+		205890B6A83E38E6760CC0D9 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-dummy.m"; sourceTree = "<group>"; };
+		20B3BBC36029523161CF834D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h"; sourceTree = "<group>"; };
+		213D8B872024B88007358367 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Quick/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
+		23BA1989C0FF7B1C53B779C0 /* NMBExceptionCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBExceptionCapture.h; path = Nimble/objc/NMBExceptionCapture.h; sourceTree = "<group>"; };
+		28EBE8BF8ABBBBB4FD5FD212 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		29086B23D729CFEABCBEF2F1 /* Pods-ARVAutocompleteBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARVAutocompleteBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2F2B51C0D45FB72E99D59A6A /* Expectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Nimble/Expectation.swift; sourceTree = "<group>"; };
+		31782D7E41D526A336E68125 /* Pods-ARVAutocompleteBar_Tests-Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARVAutocompleteBar_Tests-Nimble-dummy.m"; sourceTree = "<group>"; };
+		3186201F990840DA02A60F4E /* BeGreaterThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThan.swift; path = Nimble/Matchers/BeGreaterThan.swift; sourceTree = "<group>"; };
+		31D32B85C53D63705F23F4CB /* Pods-ARVAutocompleteBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARVAutocompleteBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3217766F6A1D23F9DDA1BD1E /* Pods-ARVAutocompleteBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		381D8606527B43C5C41C8788 /* MatcherProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherProtocols.swift; path = Nimble/Matchers/MatcherProtocols.swift; sourceTree = "<group>"; };
+		44DE6F93AAFE95405A38EC90 /* AdapterProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdapterProtocols.swift; path = Nimble/Adapters/AdapterProtocols.swift; sourceTree = "<group>"; };
+		483DD8ED6C504C4E053F9DCB /* ARVAutocompleteBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARVAutocompleteBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C24D743FFA90FF1562DED19 /* Pods-ARVAutocompleteBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARVAutocompleteBar_Example-dummy.m"; sourceTree = "<group>"; };
+		4CDF808A27539309670C5FC8 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		4DFF4ABF0DF9D012C53613C2 /* NSString+QCKSelectorName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QCKSelectorName.m"; path = "Quick/NSString+QCKSelectorName.m"; sourceTree = "<group>"; };
+		4EE7A6E0F6289BA963CA5AE1 /* Pods_ARVAutocompleteBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARVAutocompleteBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		519FB238004F0F4431D44EF9 /* Pods-ARVAutocompleteBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		52379AF6FC8E45DE03237B76 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Quick/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		53DAD611F63D9B8CFC9A79FB /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		54940B338679C98162D8C1C7 /* Pods-ARVAutocompleteBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARVAutocompleteBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55F7E5726F0773F679F7E2D7 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
+		56895B3BCF05BBBE166C64D3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		57FBB16B33BE7371BBBD9B55 /* MatcherFunc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatcherFunc.swift; path = Nimble/Wrappers/MatcherFunc.swift; sourceTree = "<group>"; };
+		5A3311CD1F95CA85FCC5CA2A /* Pods-ARVAutocompleteBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARVAutocompleteBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		5BDB729E31A322E9A7A4D3C2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C60AE77B15E648B92A9B6B3 /* BeAKindOf.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeAKindOf.swift; path = Nimble/Matchers/BeAKindOf.swift; sourceTree = "<group>"; };
+		5E2CCA2CA51378961D760B1F /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Quick/Quick.h; sourceTree = "<group>"; };
+		619C66819909D7B1C4EE7562 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Quick/QuickSpec.h; sourceTree = "<group>"; };
+		64E5DDD89B9C7D074B2AE41B /* BeLessThan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThan.swift; path = Nimble/Matchers/BeLessThan.swift; sourceTree = "<group>"; };
+		664E13CF92E9F6FA070A97A1 /* AutocompleteCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AutocompleteCell.xib; sourceTree = "<group>"; };
+		68AD6E5F8684256C629CB463 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69DE579DD09D5734AE3A4019 /* ARVAutocompleteBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARVAutocompleteBar.swift; sourceTree = "<group>"; };
+		6AFE1AE60D9643B4D3F9D5BD /* Pods-ARVAutocompleteBar_Tests-Nimble.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Tests-Nimble.xcconfig"; sourceTree = "<group>"; };
+		6CB0D2F5C43A097C846730E3 /* Pods-ARVAutocompleteBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARVAutocompleteBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		6E8904F64DEEEE1926B080E0 /* BeCloseTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeCloseTo.swift; path = Nimble/Matchers/BeCloseTo.swift; sourceTree = "<group>"; };
+		6ED68A9F255718439ADC0742 /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Quick/DSL/QCKDSL.m; sourceTree = "<group>"; };
+		6ED9C9C5A10BEE1211408AE1 /* Pods-ARVAutocompleteBar_Tests-Nimble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Tests-Nimble-Private.xcconfig"; sourceTree = "<group>"; };
+		70057CC74C37A525C63E2C15 /* NSString+QCKSelectorName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QCKSelectorName.h"; path = "Quick/NSString+QCKSelectorName.h"; sourceTree = "<group>"; };
+		74F83676068347A53C495A05 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig"; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig"; sourceTree = "<group>"; };
+		7693A3C1A43B209BF1687DDB /* AllPass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AllPass.swift; path = Nimble/Matchers/AllPass.swift; sourceTree = "<group>"; };
+		7EA14369C313F79AD7B284C6 /* Pods-ARVAutocompleteBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARVAutocompleteBar_Example-resources.sh"; sourceTree = "<group>"; };
+		7EAA264BCB387C9EB4E039F6 /* Pods-ARVAutocompleteBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARVAutocompleteBar_Example.modulemap"; sourceTree = "<group>"; };
+		803EF3ABCC671FBB420F477D /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
+		833C28BC4E62F0DF9F90924A /* Pods-ARVAutocompleteBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARVAutocompleteBar_Tests.modulemap"; sourceTree = "<group>"; };
+		85B96373ADD656875EEE9CF8 /* ObjCMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCMatcher.swift; path = Nimble/Wrappers/ObjCMatcher.swift; sourceTree = "<group>"; };
+		87A1869F63432173CAAC1B2B /* Poll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = Nimble/Utils/Poll.swift; sourceTree = "<group>"; };
+		8886E5574CEDB44D1C4CC4DC /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADE506A64C758BA4856D307 /* Pods-ARVAutocompleteBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ARVAutocompleteBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8DEA34AB0B91A4CF25D3329C /* Pods-ARVAutocompleteBar_Tests-Nimble.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARVAutocompleteBar_Tests-Nimble.modulemap"; sourceTree = "<group>"; };
+		8F57B825613E5BC2A91EA144 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
+		92C5E658B674E6AC44930579 /* Pods_ARVAutocompleteBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARVAutocompleteBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94080F240DC24BED7353BA71 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m"; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m"; sourceTree = "<group>"; };
+		9AFAB3BA2F66025E0A29426D /* Pods-ARVAutocompleteBar_Tests-Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ARVAutocompleteBar_Tests-Quick.modulemap"; sourceTree = "<group>"; };
+		9BCC85476A97A599FE0F98A2 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		9E91FFDBD8BD2FE5C6B075FA /* AutocompleteCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutocompleteCell.swift; sourceTree = "<group>"; };
+		9F3FF6B7E7AEE36913056E50 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Quick/Example.swift; sourceTree = "<group>"; };
+		A7A590BBAAE8A22BFF61E426 /* DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DSL.h; path = Nimble/objc/DSL.h; sourceTree = "<group>"; };
+		A8A3CB5727B39598F98BE423 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Quick/Filter.swift; sourceTree = "<group>"; };
+		A9A885CF48CEF1E3A296781A /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
+		AA1DCE63E52A3343F931D5B6 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Nimble/Expression.swift; sourceTree = "<group>"; };
+		AB243F8499D7D1C577E51FFF /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Nimble/DSL.swift; sourceTree = "<group>"; };
+		ADC3DD16B1C754D3D92F174F /* BeLessThanOrEqual.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeLessThanOrEqual.swift; path = Nimble/Matchers/BeLessThanOrEqual.swift; sourceTree = "<group>"; };
+		ADF294F5B4503188FE707CED /* NMBExceptionCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NMBExceptionCapture.m; path = Nimble/objc/NMBExceptionCapture.m; sourceTree = "<group>"; };
+		B05CE527371827B948934E15 /* Contain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contain.swift; path = Nimble/Matchers/Contain.swift; sourceTree = "<group>"; };
+		B53CA21332FDDEA9E4D7738C /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Quick/Callsite.swift; sourceTree = "<group>"; };
+		B5A8DE5B4A6C891F587E9AF8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C8D7EAB366371F518F5C2D /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Quick/QuickSpec.m; sourceTree = "<group>"; };
+		BBD68AC2EF3BC85DCFB299A5 /* AssertionRecorder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionRecorder.swift; path = Nimble/Adapters/AssertionRecorder.swift; sourceTree = "<group>"; };
+		BE66C9E3AD50F292B1C63D0A /* DSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DSL.m; path = Nimble/objc/DSL.m; sourceTree = "<group>"; };
+		C040E6D8F1B10B5225B8485B /* Pods-ARVAutocompleteBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C054EAB868835B12142DB9DB /* Pods-ARVAutocompleteBar_Tests-Nimble-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Tests-Nimble-prefix.pch"; sourceTree = "<group>"; };
+		C49F751122CB611D5BCBCB29 /* RaisesException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisesException.swift; path = Nimble/Matchers/RaisesException.swift; sourceTree = "<group>"; };
+		C53EDA282D2E435CFF154E77 /* Pods-ARVAutocompleteBar_Tests-Nimble-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Tests-Nimble-umbrella.h"; sourceTree = "<group>"; };
+		C85F38B3DF82BAC3ECD0413F /* AsyncMatcherWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncMatcherWrapper.swift; path = Nimble/Wrappers/AsyncMatcherWrapper.swift; sourceTree = "<group>"; };
+		C8AD22A66C86A0232C816B06 /* SourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourceLocation.swift; path = Nimble/Utils/SourceLocation.swift; sourceTree = "<group>"; };
+		CC98A67897932DD8EED7A0B8 /* BeGreaterThanOrEqualTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeGreaterThanOrEqualTo.swift; path = Nimble/Matchers/BeGreaterThanOrEqualTo.swift; sourceTree = "<group>"; };
+		CFAF36BACEE37A56A12ED1F1 /* FailureMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FailureMessage.swift; path = Nimble/FailureMessage.swift; sourceTree = "<group>"; };
+		D1CF78718EBEB2F88D155773 /* Pods-ARVAutocompleteBar_Tests-Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ARVAutocompleteBar_Tests-Quick-dummy.m"; sourceTree = "<group>"; };
+		D24F7EBD312600B065AE3F8B /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.xcconfig"; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.xcconfig"; sourceTree = "<group>"; };
+		D45A73244CD5973961FF7AD3 /* Pods-ARVAutocompleteBar_Tests-Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Tests-Quick-umbrella.h"; sourceTree = "<group>"; };
+		D69C68C8E151B790A35CF8BB /* Stringers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stringers.swift; path = Nimble/Utils/Stringers.swift; sourceTree = "<group>"; };
+		D9E78C0AA7FF90056D3DD502 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD01D06B8AB4D0285A8F58DC /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
+		DD3DB89B5165F198D322CB9D /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Quick/World.swift; sourceTree = "<group>"; };
+		DD7144744C9AE7949864903C /* ARVAutocompleteBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ARVAutocompleteBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8F2E8228B6DCF085111211 /* Pods-ARVAutocompleteBar_Tests-Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Tests-Quick-prefix.pch"; sourceTree = "<group>"; };
+		E2A4D9DD9DC72CF2580C51FD /* ARVAutocompleteBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARVAutocompleteBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3482B1B380FAF6E4118CBCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3BA65AF492C1C43361A3FD5 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-prefix.pch"; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-prefix.pch"; sourceTree = "<group>"; };
+		E61B7AEC6042D26F17D81EB3 /* AssertionDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssertionDispatcher.swift; path = Nimble/Adapters/AssertionDispatcher.swift; sourceTree = "<group>"; };
+		E626A48E11348463EFD3E612 /* Pods-ARVAutocompleteBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ARVAutocompleteBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		E652FE4A195FC9B627C0B79B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Info.plist"; sourceTree = "<group>"; };
+		E86FE015FD8A2BAD65EE25FE /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.xcconfig"; sourceTree = "<group>"; };
+		E91BD7C0B29C08DC7E89DBE0 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
+		E95E8924FD098BF16B91A37E /* Match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Match.swift; path = Nimble/Matchers/Match.swift; sourceTree = "<group>"; };
+		E98F91587727EB969366337F /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		EC8B9DA7E1697C916D57DFB1 /* ObjCExpectation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjCExpectation.swift; path = Nimble/ObjCExpectation.swift; sourceTree = "<group>"; };
+		F058E403525B0A8F0214B85B /* Nimble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nimble.h; path = Nimble/Nimble.h; sourceTree = "<group>"; };
+		F245DC3A2CD935DB606B9779 /* Pods-ARVAutocompleteBar_Tests-Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Tests-Quick.xcconfig"; sourceTree = "<group>"; };
+		F6D6F259E7B087923D0DA30C /* BeginWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeginWith.swift; path = Nimble/Matchers/BeginWith.swift; sourceTree = "<group>"; };
+		F6E925CC7259955BD9EFBEEB /* Pods-ARVAutocompleteBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ARVAutocompleteBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F71FFB0CEDB76EC4877F48BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA08F03D98D0FF01426A6753 /* Pods-ARVAutocompleteBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ARVAutocompleteBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB7C0ABB1B73A067AC13D66D /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		FD9F8CD34AD6F0B0001F750F /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7C7543CFC4FE6550CC4949 /* Pods-ARVAutocompleteBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ARVAutocompleteBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		084BF591BDEDCD8F3AA9137B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900BC3C1D86D5114225B801F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E1F0C08256291D3FB255E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C7A35A319B4F3968239EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACBB4214A5B3D8FFF8F0C16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96222D1BEC59836F865C67D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CCD42FBCF280F2571C07F7F /* Foundation.framework in Frameworks */,
+				127D730B3681724F6F5ED979 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE4C92B55EC86644F201A6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A515D52EAE0A81E3EB5C3C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E18FAB4715B1697AFFCE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97BCD9C6EC63908758C78C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75276BF13B30726B3E7A2B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA483B32A60496808E81134F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30C5C4099F940D1FB503374 /* Foundation.framework in Frameworks */,
+				DD97B752ED2E345C60AD70F9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01DB5058F82013FC5CD9854E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3482B1B380FAF6E4118CBCA /* Foundation.framework */,
+				1C7CE1C374C8A5D5F0A8422A /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		02E03960AE2CE363095C1210 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01DB5058F82013FC5CD9854E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		06961057629F92A17BC4513A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2A4D9DD9DC72CF2580C51FD /* ARVAutocompleteBar.bundle */,
+				483DD8ED6C504C4E053F9DCB /* ARVAutocompleteBar.bundle */,
+				DD7144744C9AE7949864903C /* ARVAutocompleteBar.framework */,
+				118B37F117F09036D4B6B353 /* ARVAutocompleteBar.framework */,
+				8886E5574CEDB44D1C4CC4DC /* Nimble.framework */,
+				4EE7A6E0F6289BA963CA5AE1 /* Pods_ARVAutocompleteBar_Example.framework */,
+				92C5E658B674E6AC44930579 /* Pods_ARVAutocompleteBar_Tests.framework */,
+				FD9F8CD34AD6F0B0001F750F /* Quick.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B74C4832BF177172A844687 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9E78C0AA7FF90056D3DD502 /* Info.plist */,
+				8DEA34AB0B91A4CF25D3329C /* Pods-ARVAutocompleteBar_Tests-Nimble.modulemap */,
+				6AFE1AE60D9643B4D3F9D5BD /* Pods-ARVAutocompleteBar_Tests-Nimble.xcconfig */,
+				6ED9C9C5A10BEE1211408AE1 /* Pods-ARVAutocompleteBar_Tests-Nimble-Private.xcconfig */,
+				31782D7E41D526A336E68125 /* Pods-ARVAutocompleteBar_Tests-Nimble-dummy.m */,
+				C054EAB868835B12142DB9DB /* Pods-ARVAutocompleteBar_Tests-Nimble-prefix.pch */,
+				C53EDA282D2E435CFF154E77 /* Pods-ARVAutocompleteBar_Tests-Nimble-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble";
+			sourceTree = "<group>";
+		};
+		39EC309BC43B1E7BF487A674 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				B53CA21332FDDEA9E4D7738C /* Callsite.swift */,
+				FB7C0ABB1B73A067AC13D66D /* Closures.swift */,
+				1BE3DF25B27465D9D2C6D591 /* Configuration.swift */,
+				E98F91587727EB969366337F /* DSL.swift */,
+				9F3FF6B7E7AEE36913056E50 /* Example.swift */,
+				53DAD611F63D9B8CFC9A79FB /* ExampleGroup.swift */,
+				28EBE8BF8ABBBBB4FD5FD212 /* ExampleHooks.swift */,
+				9BCC85476A97A599FE0F98A2 /* ExampleMetadata.swift */,
+				1471E10F4AE6DEEF1F10032C /* Failure.swift */,
+				A8A3CB5727B39598F98BE423 /* Filter.swift */,
+				70057CC74C37A525C63E2C15 /* NSString+QCKSelectorName.h */,
+				4DFF4ABF0DF9D012C53613C2 /* NSString+QCKSelectorName.m */,
+				52379AF6FC8E45DE03237B76 /* QCKDSL.h */,
+				6ED68A9F255718439ADC0742 /* QCKDSL.m */,
+				5E2CCA2CA51378961D760B1F /* Quick.h */,
+				213D8B872024B88007358367 /* QuickConfiguration.h */,
+				078FFAA15A7ECA3C3EA15A79 /* QuickConfiguration.m */,
+				619C66819909D7B1C4EE7562 /* QuickSpec.h */,
+				B7C8D7EAB366371F518F5C2D /* QuickSpec.m */,
+				4CDF808A27539309670C5FC8 /* SuiteHooks.swift */,
+				DD3DB89B5165F198D322CB9D /* World.swift */,
+				DD01D06B8AB4D0285A8F58DC /* World+DSL.swift */,
+				DB41FC61915ADD2D88D7FCBD /* Support Files */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		658DA283572D5D2221085CF5 = {
+			isa = PBXGroup;
+			children = (
+				5BDB729E31A322E9A7A4D3C2 /* Podfile */,
+				FE1B92785DD5ABB16110CFE1 /* Development Pods */,
+				02E03960AE2CE363095C1210 /* Frameworks */,
+				BC87B6F4A05493FD71824744 /* Pods */,
+				06961057629F92A17BC4513A /* Products */,
+				97BB149935A4EE8987E6561C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		816D1025E9CFB9C8E762584F /* ARVAutocompleteBar */ = {
+			isa = PBXGroup;
+			children = (
+				CFA0C439D2FD85FEE398E912 /* Pod */,
+				C7EE6B35B5D52F8145CDC31E /* Support Files */,
+			);
+			name = ARVAutocompleteBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		97BB149935A4EE8987E6561C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B746C2561C0B25E7FE911B56 /* Pods-ARVAutocompleteBar_Example */,
+				EA2834A1570B3B032674AFA3 /* Pods-ARVAutocompleteBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B183398F3467EA33E4786A33 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69DE579DD09D5734AE3A4019 /* ARVAutocompleteBar.swift */,
+				9E91FFDBD8BD2FE5C6B075FA /* AutocompleteCell.swift */,
+				664E13CF92E9F6FA070A97A1 /* AutocompleteCell.xib */,
+				56895B3BCF05BBBE166C64D3 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B746C2561C0B25E7FE911B56 /* Pods-ARVAutocompleteBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F71FFB0CEDB76EC4877F48BC /* Info.plist */,
+				7EAA264BCB387C9EB4E039F6 /* Pods-ARVAutocompleteBar_Example.modulemap */,
+				F6E925CC7259955BD9EFBEEB /* Pods-ARVAutocompleteBar_Example-acknowledgements.markdown */,
+				31D32B85C53D63705F23F4CB /* Pods-ARVAutocompleteBar_Example-acknowledgements.plist */,
+				4C24D743FFA90FF1562DED19 /* Pods-ARVAutocompleteBar_Example-dummy.m */,
+				03BEC487FBF4053240D32892 /* Pods-ARVAutocompleteBar_Example-environment.h */,
+				8ADE506A64C758BA4856D307 /* Pods-ARVAutocompleteBar_Example-frameworks.sh */,
+				7EA14369C313F79AD7B284C6 /* Pods-ARVAutocompleteBar_Example-resources.sh */,
+				E626A48E11348463EFD3E612 /* Pods-ARVAutocompleteBar_Example-umbrella.h */,
+				C040E6D8F1B10B5225B8485B /* Pods-ARVAutocompleteBar_Example.debug.xcconfig */,
+				3217766F6A1D23F9DDA1BD1E /* Pods-ARVAutocompleteBar_Example.release.xcconfig */,
+			);
+			name = "Pods-ARVAutocompleteBar_Example";
+			path = "Target Support Files/Pods-ARVAutocompleteBar_Example";
+			sourceTree = "<group>";
+		};
+		BC87B6F4A05493FD71824744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6526F2876F7F3DFBA7D67F0 /* Nimble */,
+				39EC309BC43B1E7BF487A674 /* Quick */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6526F2876F7F3DFBA7D67F0 /* Nimble */ = {
+			isa = PBXGroup;
+			children = (
+				44DE6F93AAFE95405A38EC90 /* AdapterProtocols.swift */,
+				7693A3C1A43B209BF1687DDB /* AllPass.swift */,
+				E61B7AEC6042D26F17D81EB3 /* AssertionDispatcher.swift */,
+				BBD68AC2EF3BC85DCFB299A5 /* AssertionRecorder.swift */,
+				C85F38B3DF82BAC3ECD0413F /* AsyncMatcherWrapper.swift */,
+				5C60AE77B15E648B92A9B6B3 /* BeAKindOf.swift */,
+				05B9B5215C6DA8E326F2CEB6 /* BeAnInstanceOf.swift */,
+				6E8904F64DEEEE1926B080E0 /* BeCloseTo.swift */,
+				A9A885CF48CEF1E3A296781A /* BeEmpty.swift */,
+				3186201F990840DA02A60F4E /* BeGreaterThan.swift */,
+				CC98A67897932DD8EED7A0B8 /* BeGreaterThanOrEqualTo.swift */,
+				E91BD7C0B29C08DC7E89DBE0 /* BeIdenticalTo.swift */,
+				64E5DDD89B9C7D074B2AE41B /* BeLessThan.swift */,
+				ADC3DD16B1C754D3D92F174F /* BeLessThanOrEqual.swift */,
+				1A03F78EF877E5DD556E445F /* BeLogical.swift */,
+				55F7E5726F0773F679F7E2D7 /* BeNil.swift */,
+				F6D6F259E7B087923D0DA30C /* BeginWith.swift */,
+				B05CE527371827B948934E15 /* Contain.swift */,
+				A7A590BBAAE8A22BFF61E426 /* DSL.h */,
+				BE66C9E3AD50F292B1C63D0A /* DSL.m */,
+				AB243F8499D7D1C577E51FFF /* DSL.swift */,
+				8F57B825613E5BC2A91EA144 /* DSL+Wait.swift */,
+				1567D72002CE4C41FDD396BE /* EndWith.swift */,
+				16CB1DD1C163B31D9569540E /* Equal.swift */,
+				2F2B51C0D45FB72E99D59A6A /* Expectation.swift */,
+				AA1DCE63E52A3343F931D5B6 /* Expression.swift */,
+				CFAF36BACEE37A56A12ED1F1 /* FailureMessage.swift */,
+				803EF3ABCC671FBB420F477D /* Functional.swift */,
+				E95E8924FD098BF16B91A37E /* Match.swift */,
+				57FBB16B33BE7371BBBD9B55 /* MatcherFunc.swift */,
+				381D8606527B43C5C41C8788 /* MatcherProtocols.swift */,
+				23BA1989C0FF7B1C53B779C0 /* NMBExceptionCapture.h */,
+				ADF294F5B4503188FE707CED /* NMBExceptionCapture.m */,
+				F058E403525B0A8F0214B85B /* Nimble.h */,
+				1CBA3C6CC29C87456D71BD7F /* NimbleXCTestHandler.swift */,
+				EC8B9DA7E1697C916D57DFB1 /* ObjCExpectation.swift */,
+				85B96373ADD656875EEE9CF8 /* ObjCMatcher.swift */,
+				87A1869F63432173CAAC1B2B /* Poll.swift */,
+				C49F751122CB611D5BCBCB29 /* RaisesException.swift */,
+				C8AD22A66C86A0232C816B06 /* SourceLocation.swift */,
+				D69C68C8E151B790A35CF8BB /* Stringers.swift */,
+				1B74C4832BF177172A844687 /* Support Files */,
+			);
+			path = Nimble;
+			sourceTree = "<group>";
+		};
+		C7EE6B35B5D52F8145CDC31E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68AD6E5F8684256C629CB463 /* Info.plist */,
+				E652FE4A195FC9B627C0B79B /* Info.plist */,
+				156E7CCE3D005773EB6314CF /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.modulemap */,
+				E86FE015FD8A2BAD65EE25FE /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.xcconfig */,
+				13E8948083CF3F451E03AF1D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig */,
+				205890B6A83E38E6760CC0D9 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-dummy.m */,
+				1A0D4EAAF9AC453158A76EAA /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-prefix.pch */,
+				20B3BBC36029523161CF834D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h */,
+				12A6C39C8C0C9700FB407663 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.modulemap */,
+				D24F7EBD312600B065AE3F8B /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.xcconfig */,
+				74F83676068347A53C495A05 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig */,
+				94080F240DC24BED7353BA71 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m */,
+				E3BA65AF492C1C43361A3FD5 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-prefix.pch */,
+				0DD7444BD521ECF98D81B4DE /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar";
+			sourceTree = "<group>";
+		};
+		CFA0C439D2FD85FEE398E912 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B183398F3467EA33E4786A33 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		DB41FC61915ADD2D88D7FCBD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0694893AC6C3EB7C85B8A912 /* Info.plist */,
+				9AFAB3BA2F66025E0A29426D /* Pods-ARVAutocompleteBar_Tests-Quick.modulemap */,
+				F245DC3A2CD935DB606B9779 /* Pods-ARVAutocompleteBar_Tests-Quick.xcconfig */,
+				0CD8FD063A09DB623A46F5D4 /* Pods-ARVAutocompleteBar_Tests-Quick-Private.xcconfig */,
+				D1CF78718EBEB2F88D155773 /* Pods-ARVAutocompleteBar_Tests-Quick-dummy.m */,
+				DE8F2E8228B6DCF085111211 /* Pods-ARVAutocompleteBar_Tests-Quick-prefix.pch */,
+				D45A73244CD5973961FF7AD3 /* Pods-ARVAutocompleteBar_Tests-Quick-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick";
+			sourceTree = "<group>";
+		};
+		EA2834A1570B3B032674AFA3 /* Pods-ARVAutocompleteBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B5A8DE5B4A6C891F587E9AF8 /* Info.plist */,
+				833C28BC4E62F0DF9F90924A /* Pods-ARVAutocompleteBar_Tests.modulemap */,
+				54940B338679C98162D8C1C7 /* Pods-ARVAutocompleteBar_Tests-acknowledgements.markdown */,
+				FA08F03D98D0FF01426A6753 /* Pods-ARVAutocompleteBar_Tests-acknowledgements.plist */,
+				6CB0D2F5C43A097C846730E3 /* Pods-ARVAutocompleteBar_Tests-dummy.m */,
+				11ECE8D91327034DA53A1668 /* Pods-ARVAutocompleteBar_Tests-environment.h */,
+				29086B23D729CFEABCBEF2F1 /* Pods-ARVAutocompleteBar_Tests-frameworks.sh */,
+				5A3311CD1F95CA85FCC5CA2A /* Pods-ARVAutocompleteBar_Tests-resources.sh */,
+				519FB238004F0F4431D44EF9 /* Pods-ARVAutocompleteBar_Tests-umbrella.h */,
+				FE7C7543CFC4FE6550CC4949 /* Pods-ARVAutocompleteBar_Tests.debug.xcconfig */,
+				0171179A0942BDE614B82315 /* Pods-ARVAutocompleteBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-ARVAutocompleteBar_Tests";
+			path = "Target Support Files/Pods-ARVAutocompleteBar_Tests";
+			sourceTree = "<group>";
+		};
+		FE1B92785DD5ABB16110CFE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				816D1025E9CFB9C8E762584F /* ARVAutocompleteBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		211B786EF07B05364E8022FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A313D86F485D36D28B71B3 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B158B96AA1FE5823EAA52D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717624CEA73E963164BF9EF7 /* DSL.h in Headers */,
+				0EDAB83E95C4371B4F87647A /* NMBExceptionCapture.h in Headers */,
+				0FA479AEC2BF31DDC199A8C4 /* Nimble.h in Headers */,
+				7F2C957F7C03E7B473AE9ECE /* Pods-ARVAutocompleteBar_Tests-Nimble-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C107B392359AEF36B8F01E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED802EAF1E587D4F99BE70F /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754357F8B281281DF593F3F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655B5497BE6B87596E0C97BD /* NSString+QCKSelectorName.h in Headers */,
+				AA185F48C16F770B78EC0E66 /* Pods-ARVAutocompleteBar_Tests-Quick-umbrella.h in Headers */,
+				3C507C9025AB5B1D05378EF3 /* QCKDSL.h in Headers */,
+				A16E10A8D5396CF723E9624D /* Quick.h in Headers */,
+				0FFCA62EDDAF57F234DB9738 /* QuickConfiguration.h in Headers */,
+				999D6388EEFB925F25239BB2 /* QuickSpec.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3828BB572346E632A6E0E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00717BDCE6FD1C23D1398FB3 /* Pods-ARVAutocompleteBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DB6DB1E9EF0D4FDC6547F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F575CB5EB9AC2D7B0CBB4C6 /* Pods-ARVAutocompleteBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10B25F6F07BDBC34E7E52972 /* Pods-ARVAutocompleteBar_Tests-Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327544F41DA9B38723A53AEA /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-Quick" */;
+			buildPhases = (
+				002B62D48D6F6A476AEAF037 /* Sources */,
+				EA483B32A60496808E81134F /* Frameworks */,
+				754357F8B281281DF593F3F0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARVAutocompleteBar_Tests-Quick";
+			productName = "Pods-ARVAutocompleteBar_Tests-Quick";
+			productReference = FD9F8CD34AD6F0B0001F750F /* Quick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2BB9162DABD851E0D3891971 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63D1A2F9575380C2CE8557F /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar" */;
+			buildPhases = (
+				9AA2AD20B036AF4B70B8EF4C /* Sources */,
+				CE4C92B55EC86644F201A6E7 /* Frameworks */,
+				316C16AE90618CBCE5BEE41E /* Resources */,
+				211B786EF07B05364E8022FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B4E681BDECBD137AA0E030 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar";
+			productName = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar";
+			productReference = DD7144744C9AE7949864903C /* ARVAutocompleteBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		755BB96750D9146ADB22B477 /* Pods-ARVAutocompleteBar_Tests-Nimble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4811251C5E7BF5770D57384D /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-Nimble" */;
+			buildPhases = (
+				2FD7B8EDC6E21B671D3CC887 /* Sources */,
+				B96222D1BEC59836F865C67D /* Frameworks */,
+				2B158B96AA1FE5823EAA52D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARVAutocompleteBar_Tests-Nimble";
+			productName = "Pods-ARVAutocompleteBar_Tests-Nimble";
+			productReference = 8886E5574CEDB44D1C4CC4DC /* Nimble.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8976BB9BEC383317AE8DD546 /* Pods-ARVAutocompleteBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4F995033207F4645DFD4C3 /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Example" */;
+			buildPhases = (
+				CED1E75DBEEF9E8C535ECE5C /* Sources */,
+				86C7A35A319B4F3968239EA6 /* Frameworks */,
+				B8DB6DB1E9EF0D4FDC6547F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				553C046B661664B2A587DCFE /* PBXTargetDependency */,
+			);
+			name = "Pods-ARVAutocompleteBar_Example";
+			productName = "Pods-ARVAutocompleteBar_Example";
+			productReference = 4EE7A6E0F6289BA963CA5AE1 /* Pods_ARVAutocompleteBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99CC4E6D856B528F5997D872 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6294AA4E0073324A771A21 /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar" */;
+			buildPhases = (
+				7CCB25BB963513A046B496E2 /* Sources */,
+				084BF591BDEDCD8F3AA9137B /* Frameworks */,
+				A41B5C944D73D29A77585E43 /* Resources */,
+				5C107B392359AEF36B8F01E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13DD375C7A0F8A3ED3B28872 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar";
+			productName = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar";
+			productReference = 118B37F117F09036D4B6B353 /* ARVAutocompleteBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9EE53E886ED045F85961DDA /* Pods-ARVAutocompleteBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4C187832775D0E272616A7D /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests" */;
+			buildPhases = (
+				0AB09BEEC0C12AEC9297DB5A /* Sources */,
+				E97BCD9C6EC63908758C78C5 /* Frameworks */,
+				AB3828BB572346E632A6E0E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DA839E70B7A05F03681A55F /* PBXTargetDependency */,
+				FF90414E19AFD01DC2E089ED /* PBXTargetDependency */,
+				1BC6020902D34CDD49744C72 /* PBXTargetDependency */,
+			);
+			name = "Pods-ARVAutocompleteBar_Tests";
+			productName = "Pods-ARVAutocompleteBar_Tests";
+			productReference = 92C5E658B674E6AC44930579 /* Pods_ARVAutocompleteBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1D54484317C2C6EF0247FD5 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA53BE1B77DD6C3EF4502FAA /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar" */;
+			buildPhases = (
+				4C7836243B00A455A2FAA4DB /* Sources */,
+				15E1F0C08256291D3FB255E8 /* Frameworks */,
+				2D2EBDCD88F8F78E8D95B770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar";
+			productName = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar";
+			productReference = 483DD8ED6C504C4E053F9DCB /* ARVAutocompleteBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F3DAE1176F5AB116E985674A /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E4681165A17C127DCAE61F /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar" */;
+			buildPhases = (
+				C280A1E62485FB43779D41AC /* Sources */,
+				E4E18FAB4715B1697AFFCE07 /* Frameworks */,
+				81BC875DCB272A45967963EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar";
+			productName = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar";
+			productReference = E2A4D9DD9DC72CF2580C51FD /* ARVAutocompleteBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376E2783A7FBE465EDEEC93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = B80D2649E273377843822574 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 658DA283572D5D2221085CF5;
+			productRefGroup = 06961057629F92A17BC4513A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8976BB9BEC383317AE8DD546 /* Pods-ARVAutocompleteBar_Example */,
+				99CC4E6D856B528F5997D872 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar */,
+				F1D54484317C2C6EF0247FD5 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar */,
+				E9EE53E886ED045F85961DDA /* Pods-ARVAutocompleteBar_Tests */,
+				2BB9162DABD851E0D3891971 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar */,
+				F3DAE1176F5AB116E985674A /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar */,
+				755BB96750D9146ADB22B477 /* Pods-ARVAutocompleteBar_Tests-Nimble */,
+				10B25F6F07BDBC34E7E52972 /* Pods-ARVAutocompleteBar_Tests-Quick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2EBDCD88F8F78E8D95B770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316C16AE90618CBCE5BEE41E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB2BB984144E0B3113268D5 /* ARVAutocompleteBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BC875DCB272A45967963EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41B5C944D73D29A77585E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84F1D6695CBCB2D8DC618A2 /* ARVAutocompleteBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002B62D48D6F6A476AEAF037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E63E21747D7800AF9C181F41 /* Callsite.swift in Sources */,
+				F46D2ACC238E71602FCC9846 /* Closures.swift in Sources */,
+				09572CC6C5C3301E487D32A2 /* Configuration.swift in Sources */,
+				D14E8E5C5F6F910CFA91CC98 /* DSL.swift in Sources */,
+				AEC84222B5A8EE0464BDE1A2 /* Example.swift in Sources */,
+				EC7978CA34D5EE0388E510C4 /* ExampleGroup.swift in Sources */,
+				2CFB598F889B03FFAF3D9A7B /* ExampleHooks.swift in Sources */,
+				56088229E92347D64539910F /* ExampleMetadata.swift in Sources */,
+				D4AAEF9E85C9487DE451FB9F /* Failure.swift in Sources */,
+				65F51A695CE5AF92E4389148 /* Filter.swift in Sources */,
+				F1FCE7D8759DF4A970F7C384 /* NSString+QCKSelectorName.m in Sources */,
+				515ABB3F6291CD158726431C /* Pods-ARVAutocompleteBar_Tests-Quick-dummy.m in Sources */,
+				F6CB964E81DF78BC8798667A /* QCKDSL.m in Sources */,
+				D6C26EA37585E77336171E4B /* QuickConfiguration.m in Sources */,
+				A4F53BBB931EE287CC4CFCF7 /* QuickSpec.m in Sources */,
+				A3A838E619A3D936291E478F /* SuiteHooks.swift in Sources */,
+				4A79F0BA6DACE3F85F731F63 /* World+DSL.swift in Sources */,
+				F301EF766AB8F7841FD94FB4 /* World.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB09BEEC0C12AEC9297DB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D4C8B334585767FE436553 /* Pods-ARVAutocompleteBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FD7B8EDC6E21B671D3CC887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C152CC0E4F64862EEF33D6A9 /* AdapterProtocols.swift in Sources */,
+				AF782D95A79089289D459A97 /* AllPass.swift in Sources */,
+				D65CD0B4DEDF754A1B8E213C /* AssertionDispatcher.swift in Sources */,
+				41EADB5556C2C2D0D4473684 /* AssertionRecorder.swift in Sources */,
+				471940E162CA7C6B60FB3DD0 /* AsyncMatcherWrapper.swift in Sources */,
+				7A685E07E84D63E968950C3B /* BeAKindOf.swift in Sources */,
+				BB26CAF8ED02FBD865AD7B06 /* BeAnInstanceOf.swift in Sources */,
+				58A354F87A34B8BF24766D3C /* BeCloseTo.swift in Sources */,
+				73B0C0FAE8DD9E0DE4E16668 /* BeEmpty.swift in Sources */,
+				0BED3ABFAFA47E9C02A890EA /* BeGreaterThan.swift in Sources */,
+				A69F7E61C6426EC93BCBCCCA /* BeGreaterThanOrEqualTo.swift in Sources */,
+				A85C66D955669795C8A0647D /* BeIdenticalTo.swift in Sources */,
+				B445260CEC6EF9B1865555B6 /* BeLessThan.swift in Sources */,
+				130C8BB8D0AAA664F8D2C2D5 /* BeLessThanOrEqual.swift in Sources */,
+				6A5DE4D02F95923AEE2DDE52 /* BeLogical.swift in Sources */,
+				851EAD55FC7F1C968AC2AAE7 /* BeNil.swift in Sources */,
+				F526070019975A20F7505272 /* BeginWith.swift in Sources */,
+				B19C7D293C85333AEF17D28C /* Contain.swift in Sources */,
+				8E5F08FB422F37F6DD90874F /* DSL+Wait.swift in Sources */,
+				3431291ACF60AC823D4B752B /* DSL.m in Sources */,
+				857F6551A96D82B7BBCD8742 /* DSL.swift in Sources */,
+				4EFA60FD6DE8F58CD8317013 /* EndWith.swift in Sources */,
+				A2250AEC802ECE22AFEBB5CA /* Equal.swift in Sources */,
+				9B72D4DFABF573F4FD509272 /* Expectation.swift in Sources */,
+				55D87E9EE37C00AB5DA1BDBF /* Expression.swift in Sources */,
+				6A20EDF07398FC89209810A0 /* FailureMessage.swift in Sources */,
+				75AAC426B1D93044E6A0B17F /* Functional.swift in Sources */,
+				599C1013675C4598C6D3E9A7 /* Match.swift in Sources */,
+				B16516F1D54263A91FC47D73 /* MatcherFunc.swift in Sources */,
+				D1A5AA104934C645C0A66090 /* MatcherProtocols.swift in Sources */,
+				469C900090000E7675BD3A86 /* NMBExceptionCapture.m in Sources */,
+				785F006CD2820DF4AB3F7E57 /* NimbleXCTestHandler.swift in Sources */,
+				132A7A55E2D4345400D6752D /* ObjCExpectation.swift in Sources */,
+				1D06225FE7D9C4377938DBB9 /* ObjCMatcher.swift in Sources */,
+				89C7741783A63B6F8249DD70 /* Pods-ARVAutocompleteBar_Tests-Nimble-dummy.m in Sources */,
+				21462CEF7F8946B8C4618234 /* Poll.swift in Sources */,
+				BC9203395390B4B360B8B3A9 /* RaisesException.swift in Sources */,
+				811A47C676EA45FE99309628 /* SourceLocation.swift in Sources */,
+				001D32148CF3CFFD5A99D2EB /* Stringers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7836243B00A455A2FAA4DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCB25BB963513A046B496E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76249024E25E336DF28244B /* ARVAutocompleteBar.swift in Sources */,
+				D96186D8D2470C7470A29647 /* AutocompleteCell.swift in Sources */,
+				AFF9E93CF4E962E08BE44E4F /* AutocompleteCell.xib in Sources */,
+				4275B543ADFE0672F671A523 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-dummy.m in Sources */,
+				66CC9D1D2619C1A555D7A7DC /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA2AD20B036AF4B70B8EF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580C5246D4880D658F059704 /* ARVAutocompleteBar.swift in Sources */,
+				5779C747C9ACF083CFDEC199 /* AutocompleteCell.swift in Sources */,
+				2B8FB93ABA4EAF38921347B4 /* AutocompleteCell.xib in Sources */,
+				680FC4C95EB5C3A44612BDBC /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-dummy.m in Sources */,
+				C65BE823A5F9ECFA8F71985E /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C280A1E62485FB43779D41AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1E75DBEEF9E8C535ECE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F2B163AA21DE00DD6AB515 /* Pods-ARVAutocompleteBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13DD375C7A0F8A3ED3B28872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar";
+			target = F1D54484317C2C6EF0247FD5 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar */;
+			targetProxy = D64256A5485A0535B8D9B884 /* PBXContainerItemProxy */;
+		};
+		1BC6020902D34CDD49744C72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARVAutocompleteBar_Tests-Quick";
+			target = 10B25F6F07BDBC34E7E52972 /* Pods-ARVAutocompleteBar_Tests-Quick */;
+			targetProxy = C9E07F64709232CDF865C0E9 /* PBXContainerItemProxy */;
+		};
+		45B4E681BDECBD137AA0E030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar";
+			target = F3DAE1176F5AB116E985674A /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar */;
+			targetProxy = 7962595699D988053D4A006B /* PBXContainerItemProxy */;
+		};
+		553C046B661664B2A587DCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar";
+			target = 99CC4E6D856B528F5997D872 /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar */;
+			targetProxy = 3F39F6E49B8DFB566D177C7E /* PBXContainerItemProxy */;
+		};
+		9DA839E70B7A05F03681A55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar";
+			target = 2BB9162DABD851E0D3891971 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar */;
+			targetProxy = 8562DEAF237A1F728DAA52AC /* PBXContainerItemProxy */;
+		};
+		FF90414E19AFD01DC2E089ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ARVAutocompleteBar_Tests-Nimble";
+			target = 755BB96750D9146ADB22B477 /* Pods-ARVAutocompleteBar_Tests-Nimble */;
+			targetProxy = 0BBB780D76141F878E2555F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A6D013A83ABA71C5556FBE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED9C9C5A10BEE1211408AE1 /* Pods-ARVAutocompleteBar_Tests-Nimble-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble/Pods-ARVAutocompleteBar_Tests-Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble/Pods-ARVAutocompleteBar_Tests-Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CCBB4F05A3263FE8140715E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E8948083CF3F451E03AF1D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ARVAutocompleteBar_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		34A286E69F4D1D4F0B278F64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C040E6D8F1B10B5225B8485B /* Pods-ARVAutocompleteBar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example/Pods-ARVAutocompleteBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ARVAutocompleteBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		418A2DE6008B0426859AF4D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F83676068347A53C495A05 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		511CB27861D40230653EBCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7359E3BB2AC874D6E958BBEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD8FD063A09DB623A46F5D4 /* Pods-ARVAutocompleteBar_Tests-Quick-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick/Pods-ARVAutocompleteBar_Tests-Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick/Pods-ARVAutocompleteBar_Tests-Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DC6B58C93A3866C1268D3EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE7C7543CFC4FE6550CC4949 /* Pods-ARVAutocompleteBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests/Pods-ARVAutocompleteBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ARVAutocompleteBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		908D011F2F731FCF449A7486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED9C9C5A10BEE1211408AE1 /* Pods-ARVAutocompleteBar_Tests-Nimble-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble/Pods-ARVAutocompleteBar_Tests-Nimble-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Nimble/Pods-ARVAutocompleteBar_Tests-Nimble.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Nimble;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DA84D82C638953D74BA66BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0171179A0942BDE614B82315 /* Pods-ARVAutocompleteBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests/Pods-ARVAutocompleteBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ARVAutocompleteBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4152B8DE64910D5A9DEA21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F83676068347A53C495A05 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D64D0FB7DDA397B8DF66D4B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F83676068347A53C495A05 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ARVAutocompleteBar_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D852B9EE978C7DE7BA8BE2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E8948083CF3F451E03AF1D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ARVAutocompleteBar_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D876D695E58BC887B6F887F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E8948083CF3F451E03AF1D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8D248DC5DE2FC9C8EE14454 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74F83676068347A53C495A05 /* Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ARVAutocompleteBar_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E0EB670C518A38B9A1F96495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3217766F6A1D23F9DDA1BD1E /* Pods-ARVAutocompleteBar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example/Pods-ARVAutocompleteBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ARVAutocompleteBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E443B3DEEBBA00E7DFFF0486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F72F99455437418CC75FDE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD8FD063A09DB623A46F5D4 /* Pods-ARVAutocompleteBar_Tests-Quick-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick/Pods-ARVAutocompleteBar_Tests-Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Tests-Quick/Pods-ARVAutocompleteBar_Tests-Quick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8327FCB135000385980B980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E8948083CF3F451E03AF1D /* Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar/Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ARVAutocompleteBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4F995033207F4645DFD4C3 /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A286E69F4D1D4F0B278F64 /* Debug */,
+				E0EB670C518A38B9A1F96495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327544F41DA9B38723A53AEA /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72F99455437418CC75FDE8A /* Debug */,
+				7359E3BB2AC874D6E958BBEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4811251C5E7BF5770D57384D /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-Nimble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D013A83ABA71C5556FBE3 /* Debug */,
+				908D011F2F731FCF449A7486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E4681165A17C127DCAE61F /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar-ARVAutocompleteBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8D248DC5DE2FC9C8EE14454 /* Debug */,
+				D64D0FB7DDA397B8DF66D4B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4C187832775D0E272616A7D /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DC6B58C93A3866C1268D3EC /* Debug */,
+				9DA84D82C638953D74BA66BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63D1A2F9575380C2CE8557F /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4152B8DE64910D5A9DEA21A /* Debug */,
+				418A2DE6008B0426859AF4D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B80D2649E273377843822574 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E443B3DEEBBA00E7DFFF0486 /* Debug */,
+				511CB27861D40230653EBCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA53BE1B77DD6C3EF4502FAA /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-ARVAutocompleteBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CCBB4F05A3263FE8140715E /* Debug */,
+				D852B9EE978C7DE7BA8BE2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6294AA4E0073324A771A21 /* Build configuration list for PBXNativeTarget "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8327FCB135000385980B980 /* Debug */,
+				D876D695E58BC887B6F887F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 376E2783A7FBE465EDEEC93E /* Project object */;
+}
