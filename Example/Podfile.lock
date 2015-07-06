@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ARVAutocompleteBar: a0334d39f52accf823de7269af1ed44d6264edde
+  ARVAutocompleteBar: 289ba599130a4a0f57c9b1eea295406940fb04d6
   Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
   Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
 

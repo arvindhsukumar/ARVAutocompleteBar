@@ -1,4 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/arvindhsukumar/Podspecs.git'
+
 use_frameworks!
 
 target 'ARVAutocompleteBar_Example', :exclusive => true do

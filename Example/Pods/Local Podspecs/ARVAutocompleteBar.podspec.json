@@ -1,7 +1,7 @@
 {
   "name": "ARVAutocompleteBar",
   "version": "0.1.0",
-  "summary": "A short description of ARVAutocompleteBar.",
+  "summary": "Autocomplete Bar for use as a keyboard input view",
   "description": "A keyboard input view that provides autocomplete options like Tweetbot",
   "homepage": "https://github.com/arvindhsukumar/ARVAutocompleteBar",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "Arvindh Sukumar": "arvindh.sukumar@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/ARVAutocompleteBar.git",
+    "git": "https://github.com/arvindhsukumar/ARVAutocompleteBar.git",
     "tag": "0.1.0"
   },
   "platforms": {

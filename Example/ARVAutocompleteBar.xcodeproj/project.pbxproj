@@ -45,6 +45,7 @@
 		A487EBA76DD7F2BC0FDDFB1D /* Pods-ARVAutocompleteBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARVAutocompleteBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARVAutocompleteBar_Tests/Pods-ARVAutocompleteBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AEDA33F066048DA163D42908 /* Pods_ARVAutocompleteBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARVAutocompleteBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9896226BC21BD13E08019C /* Pods_ARVAutocompleteBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARVAutocompleteBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4B037021B49991E00C93A3E /* ARVAutocompleteBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARVAutocompleteBar.framework; path = "Pods/../build/Debug-iphoneos/Pods-ARVAutocompleteBar_Tests/ARVAutocompleteBar.framework"; sourceTree = "<group>"; };
 		E4EBF8F089E17DA1452E3DEA /* ARVAutocompleteBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARVAutocompleteBar.podspec; path = ../ARVAutocompleteBar.podspec; sourceTree = "<group>"; };
 		F4F9976B39CDB0053691A803 /* Pods-ARVAutocompleteBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARVAutocompleteBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARVAutocompleteBar_Example/Pods-ARVAutocompleteBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +73,7 @@
 		4B309D36DD9E9499A5663E2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4B037021B49991E00C93A3E /* ARVAutocompleteBar.framework */,
 				AEDA33F066048DA163D42908 /* Pods_ARVAutocompleteBar_Example.framework */,
 				CC9896226BC21BD13E08019C /* Pods_ARVAutocompleteBar_Tests.framework */,
 			);
@@ -487,6 +489,10 @@
 			baseConfigurationReference = 880505DD20EB7DBB5332D027 /* Pods-ARVAutocompleteBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-ARVAutocompleteBar_Tests",
+				);
 				INFOPLIST_FILE = ARVAutocompleteBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -499,6 +505,10 @@
 			baseConfigurationReference = F4F9976B39CDB0053691A803 /* Pods-ARVAutocompleteBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-ARVAutocompleteBar_Tests",
+				);
 				INFOPLIST_FILE = ARVAutocompleteBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

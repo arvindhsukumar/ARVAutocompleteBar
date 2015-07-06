@@ -9,14 +9,14 @@
 
 Pod::Spec.new do |s|
   s.name             = "ARVAutocompleteBar"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of ARVAutocompleteBar."
+  s.version          = "0.2.0"
+  s.summary          = "Autocomplete Bar for use as a keyboard input view"
   s.description      = "A keyboard input view that provides autocomplete options like Tweetbot"
   s.homepage         = "https://github.com/arvindhsukumar/ARVAutocompleteBar"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Arvindh Sukumar" => "arvindh.sukumar@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ARVAutocompleteBar.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/arvindhsukumar/ARVAutocompleteBar.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'

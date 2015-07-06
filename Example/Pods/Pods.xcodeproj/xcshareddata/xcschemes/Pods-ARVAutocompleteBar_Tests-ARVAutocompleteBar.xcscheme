@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2BB9162DABD851E0D3891971"
+               BlueprintIdentifier = "F4AF80570E7F5738F5161509"
                BuildableName = "ARVAutocompleteBar.framework"
                BlueprintName = "Pods-ARVAutocompleteBar_Tests-ARVAutocompleteBar"
                ReferencedContainer = "container:Pods.xcodeproj">
