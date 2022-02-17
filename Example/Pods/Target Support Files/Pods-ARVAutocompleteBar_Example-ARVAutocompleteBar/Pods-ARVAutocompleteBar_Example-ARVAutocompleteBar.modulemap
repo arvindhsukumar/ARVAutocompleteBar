@@ -1,6 +1,0 @@
-framework module ARVAutocompleteBar {
-  umbrella header "Pods-ARVAutocompleteBar_Example-ARVAutocompleteBar-umbrella.h"
-
-  export *
-  module * { export * }
-}
